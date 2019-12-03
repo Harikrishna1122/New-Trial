@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name ="Orderpizza">
+<!-- <listeners>
+<listener class-name="com.FreeCRM.common.Listeners"/>
+</listeners> -->
+<parameter name="browser" value="Chrome"/>
+<parameter name= "appurl" value ="https://www.dominos.ca/"/>
+<parameter name = "username" value = "harikrishnachowdary401@gmail.com"/>
+<parameter name = "password" value = "Hari8143@"/>
+
+<test name = "sampleTest">
+<classes>
+<class name="pizza.domios.tests.Testsdominos"/>
+</classes>
+</test>
+</suite>

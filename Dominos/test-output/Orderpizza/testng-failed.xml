@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Orderpizza]">
+  <parameter name="password" value="Hari8143@"/>
+  <parameter name="browser" value="Chrome"/>
+  <parameter name="appurl" value="https://www.dominos.ca/"/>
+  <parameter name="username" value="harikrishnachowdary401@gmail.com"/>
+  <test thread-count="5" name="sampleTest(failed)">
+    <classes>
+      <class name="pizza.domios.tests.Testsdominos">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="dominostest" invocation-numbers="0"/>
+          <include name="launchbrowser"/>
+        </methods>
+      </class> <!-- pizza.domios.tests.Testsdominos -->
+    </classes>
+  </test> <!-- sampleTest(failed) -->
+</suite> <!-- Failed suite [Orderpizza] -->
